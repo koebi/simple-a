@@ -1,12 +1,18 @@
 name = "simple-a"
 license = "MIT"
-licenselink = "https://github.com/AlexFinn/simple-a/blob/master/LICENSE.md"
+licenselink = "https://github.com/koebi/simple-a/blob/master/LICENSE.md"
 description = "Minimalistic Hugo theme"
 
-tags = ["AlexFinn", ]
-features = ["blog", ]
+tags = []
+features = []
 
 [author]
-    name = "AlexFinn"
-    homepage = "http://ru.alexfinn.eu/"
-    source_repo = "https://github.com/AlexFinn/simple-a"
+	name = "koebi"
+	homepage = "http://ezelo.de/"
+	source_repo = "https://github.com/koebi/simple-a"
+
+[original]
+	author =  "AlexFinn"
+	homepage = "http://ru.alexfinn.eu"
+	repo = "http://www.github.com/alexfinn/simple-a"
+

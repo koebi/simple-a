@@ -1,8 +1,7 @@
 simple-a
 ========
 
-Minimalistic Hugo theme
+Minimalistic, yet quite cool Hugo theme
 
-At this moment theme is WIP.
-
-I'm using it as my personal blog theme and you can take a look at [ru.alexfinn.eu](http://ru.alexfinn.eu)
+This is a fork of AlexFinn's simple-a, which you can find at
+[github.com/alexfinn/simple-a](http://github.com/alexfinn/simple-a)

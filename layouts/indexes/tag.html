@@ -5,12 +5,12 @@
       	<h1>Tag: {{ .Title }}</h1>
       </p>
         {{ range .Data.Pages }}
-        <div class="one-post">      
+        <div class="one-post">
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          <div class="post-time">{{ .Date.Format "January 2 2006" }}</div>
+          <div class="post-time">{{ .Date.Format "02/01/2006" }}</div>
         </div>
         <hr>
         {{ end }}
-  </div>      
+  </div>
 
 {{ template "theme/chrome/footer.html" . }}
