@@ -4,7 +4,7 @@
     <link>{{ .Permalink }}</link>
     <language>en-us</language>
     <author>koebi</author>
-    <updated>{{ .Date }}</updated>
+	<updated>{{ .Date.Format "Mon, 02/01/2006 15:04" }}</updated>
     {{ range .Data.Pages }}
     <item>
       <title>{{ .Title }}</title>
